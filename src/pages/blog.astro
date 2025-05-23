@@ -2,6 +2,7 @@
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
+
 ---
 
 <html lang="en">
@@ -13,8 +14,14 @@ import '../styles/global.css';
 		<title>Astro</title>
 	</head>
 	<body>
-		<Navigation/>
-		<h1>Mi sitio Astro</h1>
-		<Footer/>
+        <Navigation/>
+        <h1>Mi blog de Astro aprendizaje</h1>
+        <p>Aquí es donde publicaré sobre mi viaje de aprendizaje Astro.</p>
+        <ul>
+            <li><a href="/src/posts/post-1.md">Publicación 1</a></li>
+            <li><a href="/src/posts/post-2.md">Publicación 2</a></li>
+            <li><a href="/src/posts/post-3.md">Publicación 3</a></li>
+        </ul>
+        <Footer/>
 	</body>
 </html>
